@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Presensi</string>
+    <string name="formatter" formatted="true">%02d</string>
+
+    <string-array name="statuses">
+        <item>Hadir tepat waktu</item>
+        <item>Terlambat</item>
+        <item>Ijin</item>
+        <item>Sakit</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

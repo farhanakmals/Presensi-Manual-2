@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarFragment">
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:text="Nama Lengkap"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:layout_marginRight="@dimen/elemenX"
+                android:layout_marginBottom="@dimen/elemenY"
+                android:background="@drawable/bg_et"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/fullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="John Doe"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="@dimen/padText"
+                    android:paddingTop="@dimen/padText"
+                    android:paddingBottom="@dimen/padText"
+                    android:textSize="20sp"
+                    tools:ignore="Deprecated,TextFields"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:text="Email"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:layout_marginRight="@dimen/elemenX"
+                android:layout_marginBottom="@dimen/elemenY"
+                android:background="@drawable/bg_et"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/emailD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="example@email.com"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="@dimen/padText"
+                    android:paddingTop="@dimen/padText"
+                    android:paddingBottom="@dimen/padText"
+                    android:textSize="20sp"
+                    tools:ignore="Deprecated,TextFields" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:text="Kata Sandi"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginTop="@dimen/elemenY"
+                android:layout_marginRight="@dimen/elemenX"
+                android:background="@drawable/bg_et"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/passwordD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="*************"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/padText"
+                    android:paddingTop="@dimen/padText"
+                    android:paddingBottom="@dimen/padText"
+                    android:textSize="20sp"
+                    tools:ignore="Deprecated,TextFields" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/buttonDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="@dimen/elemenX"
+                android:layout_marginRight="@dimen/elemenX"
+                android:text="Daftar"
+                android:textAllCaps="false"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </LinearLayout>
+
+
+
+
+</FrameLayout>
